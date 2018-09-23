@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F989F721572F1B004CBA98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F989F621572F1B004CBA98 /* AppDelegate.m */; };
+		F9F989F921572F1B004CBA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F989F821572F1B004CBA98 /* Assets.xcassets */; };
+		F9F989FC21572F1B004CBA98 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9F989FA21572F1B004CBA98 /* MainMenu.xib */; };
+		F9F989FF21572F1B004CBA98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F989FE21572F1B004CBA98 /* main.m */; };
+		F9F98A0E21572F4B004CBA98 /* ThreeStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F98A0921572F4B004CBA98 /* ThreeStateButton.m */; };
+		F9F98A0F21572F4B004CBA98 /* AnimationScaleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F98A0C21572F4B004CBA98 /* AnimationScaleButton.m */; };
+		F9F98A1C2157315E004CBA98 /* button_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A142157315D004CBA98 /* button_nor.png */; };
+		F9F98A1D2157315E004CBA98 /* button_dis.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A152157315D004CBA98 /* button_dis.png */; };
+		F9F98A1E2157315E004CBA98 /* button_dis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A162157315D004CBA98 /* button_dis@2x.png */; };
+		F9F98A1F2157315E004CBA98 /* button_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A172157315E004CBA98 /* button_down@2x.png */; };
+		F9F98A202157315E004CBA98 /* button_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A182157315E004CBA98 /* button_on@2x.png */; };
+		F9F98A212157315E004CBA98 /* button_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A192157315E004CBA98 /* button_nor@2x.png */; };
+		F9F98A222157315E004CBA98 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A1A2157315E004CBA98 /* button_down.png */; };
+		F9F98A232157315E004CBA98 /* button_on.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F98A1B2157315E004CBA98 /* button_on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9F989F221572F1B004CBA98 /* CustomNSButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNSButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F989F521572F1B004CBA98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9F989F621572F1B004CBA98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9F989F821572F1B004CBA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F989FB21572F1B004CBA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F9F989FD21572F1B004CBA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F989FE21572F1B004CBA98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9F98A0021572F1B004CBA98 /* CustomNSButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomNSButton.entitlements; sourceTree = "<group>"; };
+		F9F98A0821572F4B004CBA98 /* AnimationScaleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationScaleButton.h; sourceTree = "<group>"; };
+		F9F98A0921572F4B004CBA98 /* ThreeStateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeStateButton.m; sourceTree = "<group>"; };
+		F9F98A0B21572F4B004CBA98 /* ThreeStateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeStateButton.h; sourceTree = "<group>"; };
+		F9F98A0C21572F4B004CBA98 /* AnimationScaleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationScaleButton.m; sourceTree = "<group>"; };
+		F9F98A142157315D004CBA98 /* button_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_nor.png; sourceTree = "<group>"; };
+		F9F98A152157315D004CBA98 /* button_dis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dis.png; sourceTree = "<group>"; };
+		F9F98A162157315D004CBA98 /* button_dis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_dis@2x.png"; sourceTree = "<group>"; };
+		F9F98A172157315E004CBA98 /* button_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_down@2x.png"; sourceTree = "<group>"; };
+		F9F98A182157315E004CBA98 /* button_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_on@2x.png"; sourceTree = "<group>"; };
+		F9F98A192157315E004CBA98 /* button_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_nor@2x.png"; sourceTree = "<group>"; };
+		F9F98A1A2157315E004CBA98 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		F9F98A1B2157315E004CBA98 /* button_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_on.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F989EF21572F1B004CBA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F989E921572F1B004CBA98 = {
+			isa = PBXGroup;
+			children = (
+				F9F989F421572F1B004CBA98 /* CustomNSButton */,
+				F9F98A132157313F004CBA98 /* SupportFiles */,
+				F9F989F321572F1B004CBA98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F989F321572F1B004CBA98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F989F221572F1B004CBA98 /* CustomNSButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F989F421572F1B004CBA98 /* CustomNSButton */ = {
+			isa = PBXGroup;
+			children = (
+				F9F98A0621572F4B004CBA98 /* Button */,
+				F9F989F521572F1B004CBA98 /* AppDelegate.h */,
+				F9F989F621572F1B004CBA98 /* AppDelegate.m */,
+				F9F989F821572F1B004CBA98 /* Assets.xcassets */,
+				F9F989FA21572F1B004CBA98 /* MainMenu.xib */,
+				F9F989FD21572F1B004CBA98 /* Info.plist */,
+				F9F989FE21572F1B004CBA98 /* main.m */,
+				F9F98A0021572F1B004CBA98 /* CustomNSButton.entitlements */,
+			);
+			path = CustomNSButton;
+			sourceTree = "<group>";
+		};
+		F9F98A0621572F4B004CBA98 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F9F98A0B21572F4B004CBA98 /* ThreeStateButton.h */,
+				F9F98A0921572F4B004CBA98 /* ThreeStateButton.m */,
+				F9F98A0821572F4B004CBA98 /* AnimationScaleButton.h */,
+				F9F98A0C21572F4B004CBA98 /* AnimationScaleButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		F9F98A132157313F004CBA98 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F9F98A152157315D004CBA98 /* button_dis.png */,
+				F9F98A162157315D004CBA98 /* button_dis@2x.png */,
+				F9F98A1A2157315E004CBA98 /* button_down.png */,
+				F9F98A172157315E004CBA98 /* button_down@2x.png */,
+				F9F98A142157315D004CBA98 /* button_nor.png */,
+				F9F98A192157315E004CBA98 /* button_nor@2x.png */,
+				F9F98A1B2157315E004CBA98 /* button_on.png */,
+				F9F98A182157315E004CBA98 /* button_on@2x.png */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F989F121572F1B004CBA98 /* CustomNSButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F98A0321572F1B004CBA98 /* Build configuration list for PBXNativeTarget "CustomNSButton" */;
+			buildPhases = (
+				F9F989EE21572F1B004CBA98 /* Sources */,
+				F9F989EF21572F1B004CBA98 /* Frameworks */,
+				F9F989F021572F1B004CBA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNSButton;
+			productName = CustomNSButton;
+			productReference = F9F989F221572F1B004CBA98 /* CustomNSButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F989EA21572F1B004CBA98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZL;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = giarity;
+				TargetAttributes = {
+					F9F989F121572F1B004CBA98 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = F9F989ED21572F1B004CBA98 /* Build configuration list for PBXProject "CustomNSButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F989E921572F1B004CBA98;
+			productRefGroup = F9F989F321572F1B004CBA98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F989F121572F1B004CBA98 /* CustomNSButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F989F021572F1B004CBA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F98A212157315E004CBA98 /* button_nor@2x.png in Resources */,
+				F9F98A1E2157315E004CBA98 /* button_dis@2x.png in Resources */,
+				F9F98A232157315E004CBA98 /* button_on.png in Resources */,
+				F9F98A1D2157315E004CBA98 /* button_dis.png in Resources */,
+				F9F98A202157315E004CBA98 /* button_on@2x.png in Resources */,
+				F9F98A1F2157315E004CBA98 /* button_down@2x.png in Resources */,
+				F9F98A1C2157315E004CBA98 /* button_nor.png in Resources */,
+				F9F989F921572F1B004CBA98 /* Assets.xcassets in Resources */,
+				F9F989FC21572F1B004CBA98 /* MainMenu.xib in Resources */,
+				F9F98A222157315E004CBA98 /* button_down.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F989EE21572F1B004CBA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F989FF21572F1B004CBA98 /* main.m in Sources */,
+				F9F98A0F21572F4B004CBA98 /* AnimationScaleButton.m in Sources */,
+				F9F989F721572F1B004CBA98 /* AppDelegate.m in Sources */,
+				F9F98A0E21572F4B004CBA98 /* ThreeStateButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9F989FA21572F1B004CBA98 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F989FB21572F1B004CBA98 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F98A0121572F1B004CBA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9F98A0221572F1B004CBA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9F98A0421572F1B004CBA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomNSButton/CustomNSButton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A44T64982D;
+				INFOPLIST_FILE = CustomNSButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giarity.CustomNSButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9F98A0521572F1B004CBA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomNSButton/CustomNSButton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A44T64982D;
+				INFOPLIST_FILE = CustomNSButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giarity.CustomNSButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F989ED21572F1B004CBA98 /* Build configuration list for PBXProject "CustomNSButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F98A0121572F1B004CBA98 /* Debug */,
+				F9F98A0221572F1B004CBA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F98A0321572F1B004CBA98 /* Build configuration list for PBXNativeTarget "CustomNSButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F98A0421572F1B004CBA98 /* Debug */,
+				F9F98A0521572F1B004CBA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F989EA21572F1B004CBA98 /* Project object */;
+}
